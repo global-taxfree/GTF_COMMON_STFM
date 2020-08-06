@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Birth" xml:space="preserve">
+    <value>StringTouristDetails05</value>
+  </data>
+  <data name="BuyDate" xml:space="preserve">
+    <value>StringGoodsDetails01</value>
+  </data>
+  <data name="BuyerName" xml:space="preserve">
+    <value>StringTouristDetails03</value>
+  </data>
+  <data name="COMM" xml:space="preserve">
+    <value>StringGoodsDetails02</value>
+  </data>
+  <data name="TouristDetailsTitle" xml:space="preserve">
+    <value>StringTouristDetails</value>
+  </data>
+  <data name="EndMark" xml:space="preserve">
+    <value>StringEndMark</value>
+  </data>
+  <data name="EXCOMM" xml:space="preserve">
+    <value>StringGoodsDetails03</value>
+  </data>
+  <data name="GoodsAmt" xml:space="preserve">
+    <value>StringGoodsDetails06</value>
+  </data>
+  <data name="GoodsDetailsTitle" xml:space="preserve">
+    <value>StringGoodsDetails</value>
+  </data>
+  <data name="GoodsName" xml:space="preserve">
+    <value>StringGoodsDetails04</value>
+  </data>
+  <data name="GoodsPrice" xml:space="preserve">
+    <value>StringGoodsDetails05</value>
+  </data>
+  <data name="LandingDate" xml:space="preserve">
+    <value>StringTouristDetails08</value>
+  </data>
+  <data name="LandingPlace" xml:space="preserve">
+    <value>StringTouristDetails07</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>StringLine</value>
+  </data>
+  <data name="National" xml:space="preserve">
+    <value>StringTouristDetails04</value>
+  </data>
+  <data name="PassPortNo" xml:space="preserve">
+    <value>StringTouristDetails02</value>
+  </data>
+  <data name="PassPortType" xml:space="preserve">
+    <value>StringTouristDetails01</value>
+  </data>
+  <data name="RefundAmt" xml:space="preserve">
+    <value>StringGoodsDetails10</value>
+  </data>
+  <data name="RePublish" xml:space="preserve">
+    <value>StringRePublish</value>
+  </data>
+  <data name="Residence" xml:space="preserve">
+    <value>StringTouristDetails06</value>
+  </data>
+  <data name="RetailerTitle" xml:space="preserve">
+    <value>StringRetailer</value>
+  </data>
+  <data name="SaleAmt" xml:space="preserve">
+    <value>StringGoodsDetails07</value>
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>StringRetailer03</value>
+  </data>
+  <data name="SellerAddr" xml:space="preserve">
+    <value>StringRetailer04</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>StringSlipType02Signature</value>
+  </data>
+  <data name="SlipNo" xml:space="preserve">
+    <value>StringSlipNo</value>
+  </data>
+  <data name="SlipType04" xml:space="preserve">
+    <value>StringSlipType04</value>
+  </data>
+  <data name="SlipType01" xml:space="preserve">
+    <value>StringSlipType01</value>
+  </data>
+  <data name="SlipType01Desc01" xml:space="preserve">
+    <value>StringSlipType01Desc01</value>
+  </data>
+  <data name="SlipType01Desc02" xml:space="preserve">
+    <value>StringSlipType01Desc02</value>
+  </data>
+  <data name="SlipType01Desc03" xml:space="preserve">
+    <value>StringSlipType01Desc03</value>
+  </data>
+  <data name="SlipType01Desc04" xml:space="preserve">
+    <value>StringSlipType01Desc04</value>
+  </data>
+  <data name="SlipType02" xml:space="preserve">
+    <value>StringSlipType02</value>
+  </data>
+  <data name="SlipType02Desc01" xml:space="preserve">
+    <value>StringSlipType02Desc01</value>
+  </data>
+  <data name="SlipType02Desc02" xml:space="preserve">
+    <value>StringSlipType02Desc02</value>
+  </data>
+  <data name="TaxAmt" xml:space="preserve">
+    <value>StringGoodsDetails08</value>
+  </data>
+  <data name="TaxOffice" xml:space="preserve">
+    <value>StringRetailer01</value>
+  </data>
+  <data name="TaxPlace" xml:space="preserve">
+    <value>StringRetailer02</value>
+  </data>
+  <data name="TotalAmt" xml:space="preserve">
+    <value>StringGoodsDetails09</value>
+  </data>
+  <data name="TotalFeeAmt" xml:space="preserve">
+    <value>StringGoodsDetails13</value>
+  </data>
+  <data name="TotalTaxAmt" xml:space="preserve">
+    <value>StringGoodsDetails14</value>
+  </data>
+  <data name="TotalRefundAmt" xml:space="preserve">
+    <value>StringGoodsDetails12</value>
+  </data>
+  <data name="TotalSaleAmt" xml:space="preserve">
+    <value>StringGoodsDetails11</value>
+  </data>
+  <data name="SlipType03" xml:space="preserve">
+    <value>StringSlipType03</value>
+  </data>
+  <data name="SlipType05" xml:space="preserve">
+    <value>StringSlipType05</value>
+  </data>
+  <data name="SlipType06" xml:space="preserve">
+    <value>StringSlipType06</value>
+  </data>
+  <data name="SlipType06No" xml:space="preserve">
+    <value>StringSlipType06No</value>
+  </data>
+  <data name="AllStoresTotalAmount01" xml:space="preserve">
+    <value>StringGoodsDetails15</value>
+  </data>
+  <data name="AllStoresTotalAmount02" xml:space="preserve">
+    <value>StringGoodsDetails16</value>
+  </data>
+  <data name="SlipType01AddText01" xml:space="preserve">
+    <value>StringSlipType01AddText01</value>
+  </data>
+  <data name="SlipType02AddText01" xml:space="preserve">
+    <value>StringSlipType02AddText01</value>
+  </data>
+  <data name="RefundWayName" xml:space="preserve">
+    <value>StringRefundWayName</value>
+  </data>
+  <data name="RefundWayDesc" xml:space="preserve">
+    <value>StringRefundWayDesc</value>
+  </data>
+  <data name="RefundWayQQ" xml:space="preserve">
+    <value>StringRefundWayQQ</value>
+  </data>
+  <data name="RefundWayUPI" xml:space="preserve">
+    <value>StringRefundWayUPI</value>
+  </data>
+  <data name="Operation_corprate_name" xml:space="preserve">
+    <value>StringOperationName</value>
+  </data>
+</root>

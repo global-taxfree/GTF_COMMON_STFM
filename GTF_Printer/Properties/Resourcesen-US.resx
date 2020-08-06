@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringEndMark" xml:space="preserve">
+    <value>-- END --</value>
+  </data>
+  <data name="StringGoodsDetails" xml:space="preserve">
+    <value>GOODS DETAILS</value>
+  </data>
+  <data name="StringGoodsDetails01" xml:space="preserve">
+    <value>Date of Purchase</value>
+    <comment>구입년월일</comment>
+  </data>
+  <data name="StringGoodsDetails02" xml:space="preserve">
+    <value>Commodities</value>
+    <comment>소모품</comment>
+  </data>
+  <data name="StringGoodsDetails03" xml:space="preserve">
+    <value>Commodities except consumables</value>
+    <comment>일반품목</comment>
+  </data>
+  <data name="StringGoodsDetails04" xml:space="preserve">
+    <value>Name of Commodity</value>
+    <comment>품명</comment>
+  </data>
+  <data name="StringGoodsDetails05" xml:space="preserve">
+    <value>Unit Price</value>
+    <comment>단가</comment>
+  </data>
+  <data name="StringGoodsDetails06" xml:space="preserve">
+    <value>Q-ty</value>
+    <comment>수량</comment>
+  </data>
+  <data name="StringGoodsDetails07" xml:space="preserve">
+    <value>Price</value>
+    <comment>판매가격</comment>
+  </data>
+  <data name="StringGoodsDetails08" xml:space="preserve">
+    <value>Tax Amount</value>
+    <comment>세금금액</comment>
+  </data>
+  <data name="StringGoodsDetails09" xml:space="preserve">
+    <value>Total Amount</value>
+    <comment>합계금액</comment>
+  </data>
+  <data name="StringGoodsDetails10" xml:space="preserve">
+    <value>Refund Amount</value>
+    <comment>환급금액</comment>
+  </data>
+  <data name="StringGoodsDetails11" xml:space="preserve">
+    <value>Total Sales Amount</value>
+    <comment>총판매금액</comment>
+  </data>
+  <data name="StringGoodsDetails12" xml:space="preserve">
+    <value>Total Payable Amount</value>
+    <comment>총환급금액</comment>
+  </data>
+  <data name="StringGoodsDetails13" xml:space="preserve">
+    <value>Total Service Fee</value>
+    <comment>총수수료</comment>
+  </data>
+  <data name="StringGoodsDetails14" xml:space="preserve">
+    <value>Total Refund Amount</value>
+    <comment>총지불액</comment>
+  </data>
+  <data name="StringGoodsDetails15" xml:space="preserve">
+    <value>All Stores Total Amount</value>
+    <comment>소모품 전 점포 합산금액</comment>
+  </data>
+  <data name="StringGoodsDetails16" xml:space="preserve">
+    <value>All Stores Total Amount</value>
+    <comment>일반물품 전 점포 합산금액</comment>
+  </data>
+  <data name="StringLine" xml:space="preserve">
+    <value>---------------------------------------------------------------</value>
+    <comment>태그 라인</comment>
+  </data>
+  <data name="StringOperationName" xml:space="preserve">
+    <value>運営会社</value>
+  </data>
+  <data name="StringRePublish" xml:space="preserve">
+    <value>REPRINT</value>
+    <comment>재발행</comment>
+  </data>
+  <data name="StringRetailer" xml:space="preserve">
+    <value>RETAILER</value>
+  </data>
+  <data name="StringRetailer01" xml:space="preserve">
+    <value>Tax office concerned</value>
+    <comment>소속세무서</comment>
+  </data>
+  <data name="StringRetailer02" xml:space="preserve">
+    <value>Place for Tax Payment</value>
+    <comment>납세지</comment>
+  </data>
+  <data name="StringRetailer03" xml:space="preserve">
+    <value>Seller's Name</value>
+    <comment>판매자성명</comment>
+  </data>
+  <data name="StringRetailer04" xml:space="preserve">
+    <value>Seller's Place</value>
+    <comment>판매장주소</comment>
+  </data>
+  <data name="StringSlipNo" xml:space="preserve">
+    <value>Refund No</value>
+    <comment>전표번호</comment>
+  </data>
+  <data name="StringSlipType01" xml:space="preserve">
+    <value>
+Record of Purchase of Consumption
+Tax-Exempt for Export</value>
+    <comment>수출면세물품구입기록표</comment>
+  </data>
+  <data name="StringSlipType01Desc01" xml:space="preserve">
+    <value>① When departing Japan, or if becoming a resident of Japan, you are required to submit your "Record of Purchase Card" to either the Direct of Customs that has jurisdiction over your departure location or the head of the tax office that has jurisdiction over your place or residence or address.</value>
+  </data>
+  <data name="StringSlipType01Desc02" xml:space="preserve">
+    <value>② You must not remove the "Record of Purchase Card" from your passport etc. until after you have departed Japan.</value>
+  </data>
+  <data name="StringSlipType01Desc03" xml:space="preserve">
+    <value>③ If you are not in possession of item(s) purchase tax free, that are listed on the "Record of Purchase Card", at the time of departure from Japan, an amount equivalent to the consumption tax amount(including local consumption tax) that was exempted at the time of purchase will be collected before your departure from Japan.</value>
+  </data>
+  <data name="StringSlipType01Desc04" xml:space="preserve">
+    <value>④ In the case of ③ if you do not possess listed item(s) at the time of departure, if the Director of Customs has acknowledged that item(s) you purchased tax free will not be exported as a result of being lost in the disaster or due to other unavoidable circumstances, or alternatively, if you have submitted documents to the Director of curstoms that has jurisdiction over your departure location that verifies the item(s) has already been exported an amount equivalent till the consumption tax amount (including local consumption tax) will not be collected.</value>
+  </data>
+  <data name="StringSlipType02" xml:space="preserve">
+    <value>
+Covenant of Purchaser of Consumption
+Tax-Exempt of Ultimate Export</value>
+    <comment>면세물품구입자확약서</comment>
+  </data>
+  <data name="StringSlipType02Desc01" xml:space="preserve">
+    <value>I certify that the goods listed as "consumable commodities"on this card were purchased by me for export from Japan within 30days from the purchase date and will not be disposed of within Japan.</value>
+  </data>
+  <data name="StringSlipType02Desc02" xml:space="preserve">
+    <value>I certify that the goods listed as "commodities except consumable" on this card were purchased by me for ultimate export from Japan and will not be disposed of within Japan.</value>
+  </data>
+  <data name="StringSlipType02Signature" xml:space="preserve">
+    <value>署名　Signature</value>
+  </data>
+  <data name="StringSlipType03" xml:space="preserve">
+    <value>
+Record of Purchase of Consumption
+Tax-Exempt for Export (For Copy)</value>
+    <comment>수출면세물품구입기록표(보관용)</comment>
+  </data>
+  <data name="StringSlipType04" xml:space="preserve">
+    <value>Customer Copy</value>
+    <comment>구입자보관용</comment>
+  </data>
+  <data name="StringSlipType05" xml:space="preserve">
+    <value>
+Record of Purchase of Consumption
+Tax-Exempt for Export (Keep Sellers)</value>
+    <comment>수출물품판매자보관용</comment>
+  </data>
+  <data name="StringSlipType06" xml:space="preserve">
+    <value>합산발행전표</value>
+    <comment>합산발행전표</comment>
+  </data>
+  <data name="StringSlipType06No" xml:space="preserve">
+    <value>합산발행순번</value>
+    <comment>합산발행순번</comment>
+  </data>
+  <data name="StringTouristDetails" xml:space="preserve">
+    <value>TOURIST'S DETAILS</value>
+  </data>
+  <data name="StringTouristDetails01" xml:space="preserve">
+    <value>Passport etc.</value>
+    <comment>여권종류</comment>
+  </data>
+  <data name="StringTouristDetails02" xml:space="preserve">
+    <value>No.</value>
+    <comment>여권번호</comment>
+  </data>
+  <data name="StringTouristDetails03" xml:space="preserve">
+    <value>Name in Full(in Block Letters)</value>
+    <comment>구매자성명</comment>
+  </data>
+  <data name="StringTouristDetails04" xml:space="preserve">
+    <value>Nationality</value>
+    <comment>국적</comment>
+  </data>
+  <data name="StringTouristDetails05" xml:space="preserve">
+    <value>Date of Birth</value>
+    <comment>생년월일</comment>
+  </data>
+  <data name="StringTouristDetails06" xml:space="preserve">
+    <value>Status of Residence</value>
+    <comment>체류자격</comment>
+  </data>
+  <data name="StringTouristDetails07" xml:space="preserve">
+    <value>Place of Landing</value>
+    <comment>상륙지</comment>
+  </data>
+  <data name="StringTouristDetails08" xml:space="preserve">
+    <value>Date of Landing</value>
+    <comment>상륙년월일</comment>
+  </data>
+</root>
